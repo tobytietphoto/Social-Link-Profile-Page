@@ -1,0 +1,64 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+body {
+display: flex;
+flex-direction: column;
+background-color: black;
+font-family: "inter";
+color: white;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+
+.socialLinkCard {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: hsl(0, 0%, 12%);
+height: 615px;
+width: 415px;
+border-radius: 15px;
+}
+
+img {
+border-radius: 100%;
+height: 100px;
+padding-bottom: 10px;
+}
+
+.name {
+padding-top: 20px;
+font-weight: 500;
+}
+
+.location {
+padding-top: 10px;
+color: hsl(75, 94%, 57%);
+font-size: 0.9rem;
+}
+
+.intro {
+padding: 28px 0px 23px;
+font-size: 0.9rem;
+}
+
+.socialLinksBox {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 80%;
+gap: 20px;
+}
+
+.socialLinksBox > div {
+text-align: center;
+background-color: hsl(0, 0%, 20%);
+width: 100%;
+padding: 10px;
+border-radius: 8px;
+}
