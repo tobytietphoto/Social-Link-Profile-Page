@@ -20,9 +20,9 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 background-color: hsl(0, 0%, 12%);
-height: 615px;
-width: 415px;
+min-width: 410px;
 border-radius: 15px;
+padding: 35px 0px;
 }
 
 img {
@@ -55,10 +55,21 @@ width: 80%;
 gap: 20px;
 }
 
-.socialLinksBox > div {
+a {
+text-decoration: none;
 text-align: center;
+width: 100%;
+}
+
+button {
+border: 0;
+color: white;
 background-color: hsl(0, 0%, 20%);
 width: 100%;
 padding: 10px;
 border-radius: 8px;
+}
+
+button:active {
+background-color: hsl(75, 94%, 57%);
 }
